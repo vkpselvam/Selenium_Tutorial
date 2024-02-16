@@ -1,0 +1,65 @@
+Xpath: it is a one of the locator. It  identify the webelement.
+
+two types xpath:
+
+1) Relative xpath
+
+      i) Single attribute
+
+      //tagname[@attribute='value']
+
+      //input[@id='email']
+
+      //input[@name='email']
+
+      //input[@class='inputtext _55r1 _6luy']
+
+      //input[@data-testid='royal_email']
+
+      //input[@placeholder='Email address or phone number']
+
+      //input[@aria-label='Email address or phone number']
+
+     2) Multiple attribute:
+
+     //tagname[@attribute='value'][@attribute='value']
+
+     //input[@class='_8esa'][@value='2']
+
+     3) text() function
+
+     //tagname[text()='fullvalue']
+
+     //a[text()='Forgotten password?']
+
+     4) Contains(attribute and text)
+
+     text()
+
+     //tagname[contains(text(),'partial value')]
+
+      //a[contains(text(), 'ate n')]
+
+     attribute()
+     //tagname[contains(@attribute, 'partial value')]
+
+     //a[contains(@id, 'u_0_0')]
+
+
+
+     5) Starts-with(attribute and text)
+
+     text()
+
+     //tagname[starts-with(text(),starting value')]
+
+     //a[starts-with(text(),'Create n')]
+
+
+
+     attribute()
+     //tagname[contains(@attribute, 'starting value')]
+
+
+
+2) Absolute xpath

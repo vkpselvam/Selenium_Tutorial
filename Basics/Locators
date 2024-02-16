@@ -1,0 +1,11 @@
+What is locator?
+To identify the webelement into the webpage.
+
+1) id
+2) name
+3) classname
+4) tagname
+5) linkText
+6) Partiallinktext
+7) xpath
+8) cssSelector
